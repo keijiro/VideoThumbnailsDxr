@@ -1,5 +1,15 @@
 {
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "14.0.8"
-  }
+    "com.unity.render-pipelines.high-definition": "14.0.8",
+    "jp.keijiro.metatex": "1.0.4"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
 }
