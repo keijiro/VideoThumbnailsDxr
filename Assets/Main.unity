@@ -621,7 +621,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 0.46570826, b: 0.1372549, a: 1}
+  m_Color: {r: 0.1372549, g: 0.73680323, b: 1, a: 1}
   m_Intensity: 2465.0781
   m_Range: 20
   m_SpotAngle: 32
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clearColorMode: 1
-  backgroundColorHDR: {r: 0.040267836, g: 0.205, b: 0.018303575, a: 1}
+  backgroundColorHDR: {r: 0.09951911, g: 0.066975996, b: 0.368, a: 1}
   clearDepth: 1
   volumeLayerMask:
     serializedVersion: 2
@@ -839,7 +839,7 @@ MonoBehaviour:
   volumeAnchorOverride: {fileID: 0}
   antialiasing: 0
   SMAAQuality: 2
-  dithering: 0
+  dithering: 1
   stopNaNs: 0
   taaSharpenStrength: 0.5
   TAAQuality: 1
@@ -995,7 +995,7 @@ Camera:
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &1358800594
